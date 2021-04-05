@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="20dp"
+        android:text="본 프로그램은 법무부에서 직접 제작된 것이 아니며, ‘외국인 체류 안내 매뉴얼’ 2021.2월 기준으로 제작되어 이후 변경되는 사항이 발생할 수 있습니다.
+        \n\n This program is not directly produced by the Department of Justice. The 'Foreign Stay Information Manual' was produced as of February 2021 and may change in the future changes may occur."
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
