@@ -27,6 +27,7 @@ public class DocumentBtnActivity extends AppCompatActivity {
         Button kd2btn = (Button) findViewById(R.id.kord2btn);
         Button kd3btn = (Button) findViewById(R.id.kord3btn);
         Button kd4btn = (Button) findViewById(R.id.kord4btn);
+        Button kd5btn = (Button) findViewById(R.id.kord5btn);
 
         kmainbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -116,6 +117,13 @@ public class DocumentBtnActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), KorD4Activity.class);
+                startActivity(intent);
+            }
+        });
+        kd5btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), KorD5Activity.class);
                 startActivity(intent);
             }
         });

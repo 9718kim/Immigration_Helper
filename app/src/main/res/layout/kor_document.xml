@@ -1,29 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <Button
-        android:id="@+id/kormainbtn"
-        android:layout_width="fill_parent"
-        android:layout_height="70dp"
-        android:backgroundTint="#888888"
-        android:text="출입국 Helper"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <LinearLayout
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="70dp"
-        android:text="서류 안내"
-        android:textSize="30dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/kormain"
+        tools:ignore="MissingConstraints">
+        <Button
+            android:id="@+id/kormainbtn"
+            android:layout_width="10dp"
+            android:layout_weight="6"
+            android:layout_height="70dp"
+            android:backgroundTint="#888888"
+            android:text="출입국 Helper"
+            android:insetTop="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/korsafe"
+            android:layout_width="10dp"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:backgroundTint="#888888"
+            android:text="!"
+            android:insetTop="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/korfee"
+            android:layout_width="10dp"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:backgroundTint="#888888"
+            android:text="!"
+            android:insetTop="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -34,156 +53,307 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView">
+        app:layout_constraintTop_toBottomOf="@id/kormain">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/kora1btn"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:backgroundTint="#888888"
-                android:text="(A-1) 외교"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:orientation="vertical">
 
-            <Button
-                android:id="@+id/kora2btn"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#888888"
-                android:text="(A-2) 공무"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                <Button
+                    android:id="@+id/kora1btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(A-1) 외교" />
+                <Button
+                    android:id="@+id/kora3btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(A-3) 협정"/>
+                <Button
+                    android:id="@+id/korb2btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(B-2) 관광통과"/>
+                <Button
+                    android:id="@+id/korc3btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(C-3) 단기방문"/>
+                <Button
+                    android:id="@+id/kord1btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(D-1) 문화예술"/>
+                <Button
+                    android:id="@+id/kord3btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(D-3) 기술연수"/>
+                <Button
+                    android:id="@+id/kord5btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(D-5) 취재"/>
+                <Button
+                    android:id="@+id/kord7btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(D-7) 주재"/>
+                <Button
+                    android:id="@+id/kord9btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(D-9) 무역경영"/>
+                <Button
+                    android:id="@+id/kore1btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(E-1) 교수"/>
+                <Button
+                    android:id="@+id/kore3btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(E-3) 연구"/>
+                <Button
+                    android:id="@+id/kore5btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(E-5) 전문직업"/>
+                <Button
+                    android:id="@+id/kore7btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(E-7) 특정활동"/>
+                <Button
+                    android:id="@+id/kore9btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(E-9) 비전문취업"/>
+                <Button
+                    android:id="@+id/korf1btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(F-1) 방문동거"/>
+                <Button
+                    android:id="@+id/korf3btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(F-3) 동반"/>
+                <Button
+                    android:id="@+id/korf6btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(F-6) 결혼이민"/>
+                <Button
+                    android:id="@+id/korh1btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(H-1) 관광취업"/>
+            </LinearLayout>
 
-            <Button
-                android:id="@+id/kora3btn"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#888888"
-                android:text="(A-3) 협정"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/korb1btn"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#888888"
-                android:text="(B-1) 사증면제"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/korb2btn"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#888888"
-                android:text="(B-2) 관광통과"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/korc1btn"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#888888"
-                android:text="(C-1) 일시취재"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/korc3btn"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#888888"
-                android:text="(C-3) 단기방문"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/korc4btn"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#888888"
-                android:text="(C-4) 단기취업"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/kord1btn"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#888888"
-                android:text="(D-1) 문화예술"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/kord2btn"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#888888"
-                android:text="(D-2) 유학"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/kord3btn"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#888888"
-                android:text="(D-3) 기술연수"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/kord4btn"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#888888"
-                android:text="(D-4) 일반연수"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/kord4"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#888888"
-                android:text="(D-4) 일반연수"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/kord4b"
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#888888"
-                android:text="(D-4) 일반연수"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/kora2btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(A-2) 공무"/>
+                <Button
+                    android:id="@+id/korb1btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(B-1) 사증면제"/>
+                <Button
+                    android:id="@+id/korc1btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(C-1) 일시취재"/>
+                <Button
+                    android:id="@+id/korc4btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(C-4) 단기취업"/>
+                <Button
+                    android:id="@+id/kord2btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(D-2) 유학"/>
+                <Button
+                    android:id="@+id/kord4btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(D-4) 일반연수"/>
+                <Button
+                    android:id="@+id/kord6btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(D-6) 종교"/>
+                <Button
+                    android:id="@+id/kord8btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(D-8) 기업투자"/>
+                <Button
+                    android:id="@+id/kord10btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(D-10) 구직"/>
+                <Button
+                    android:id="@+id/kore2btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(E-2) 회화지도"/>
+                <Button
+                    android:id="@+id/kore4btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(E-4) 기술지도"/>
+                <Button
+                    android:id="@+id/kore6btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(E-6) 예술흥행"/>
+                <Button
+                    android:id="@+id/kore8btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(E-8) 계절근로"/>
+                <Button
+                    android:id="@+id/kore10btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(E-10) 선원취업"/>
+                <Button
+                    android:id="@+id/korf2btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(F-2) 거주"/>
+                <Button
+                    android:id="@+id/korf5btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(F-5) 영주"/>
+                <Button
+                    android:id="@+id/korg1btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#888888"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="(G-1) 기타"/>
+            </LinearLayout>
         </LinearLayout>
-
     </androidx.core.widget.NestedScrollView>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
