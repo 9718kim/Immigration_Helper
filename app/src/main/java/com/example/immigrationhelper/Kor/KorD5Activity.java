@@ -1,24 +1,24 @@
-package com.example.immigrationhelper;
+package com.example.immigrationhelper.Kor;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.immigrationhelper.Kor.KorActivity;
+import com.example.immigrationhelper.R;
 
-public class MainActivity extends AppCompatActivity {
-
+public class KorD5Activity extends AppCompatActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.kord5);
 
-        Button stbtn = (Button) findViewById(R.id.startbtn);
+        Button kmainbtn = (Button) findViewById(R.id.kormainbtn);
 
-        stbtn.setOnClickListener(new View.OnClickListener() {
+        kmainbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), KorActivity.class);

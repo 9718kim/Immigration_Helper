@@ -16,24 +16,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".KorActivity"/>
-        <activity android:name=".DocumentBtnActivity"/>
-        <activity android:name=".ReservationBtnActivity"/>
-        <activity android:name=".GuideBtnActivity"/>
-        <activity android:name=".KorEngBtnActivity"/>
-        <activity android:name=".KorA1Activity"/>
-        <activity android:name=".KorA2Activity"/>
-        <activity android:name=".KorA3Activity"/>
-        <activity android:name=".KorB1Activity"/>
-        <activity android:name=".KorB2Activity"/>
-        <activity android:name=".KorC1Activity"/>
-        <activity android:name=".KorC3Activity"/>
-        <activity android:name=".KorC4Activity"/>
-        <activity android:name=".KorD1Activity"/>
-        <activity android:name=".KorD2Activity"/>
-        <activity android:name=".KorD3Activity"/>
-        <activity android:name=".KorD4Activity"/>
-        <activity android:name=".KorD5Activity"/>
+        <activity android:name=".Kor.KorActivity"/>
+        <activity android:name=".Kor.KorDocumentActivity"/>
+        <activity android:name=".Kor.KorReservationActivity"/>
+        <activity android:name=".Kor.KorGuideActivity"/>
+        <activity android:name=".Kor.KorEngBtnActivity"/>
+        <activity android:name=".Kor.KorA1Activity"/>
+        <activity android:name=".Kor.KorA2Activity"/>
+        <activity android:name=".Kor.KorA3Activity"/>
+        <activity android:name=".Kor.KorB1Activity"/>
+        <activity android:name=".Kor.KorB2Activity"/>
+        <activity android:name=".Kor.KorC1Activity"/>
+        <activity android:name=".Kor.KorC3Activity"/>
+        <activity android:name=".Kor.KorC4Activity"/>
+        <activity android:name=".Kor.KorD1Activity"/>
+        <activity android:name=".Kor.KorD2Activity"/>
+        <activity android:name=".Kor.KorD3Activity"/>
+        <activity android:name=".Kor.KorD4Activity"/>
+        <activity android:name=".Kor.KorD5Activity"/>
     </application>
 
 </manifest>

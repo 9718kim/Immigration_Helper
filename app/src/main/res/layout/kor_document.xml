@@ -23,7 +23,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
         <Button
-            android:id="@+id/korsafe"
+            android:id="@+id/korsafebtn"
             android:layout_width="10dp"
             android:layout_weight="1"
             android:layout_height="70dp"
@@ -33,7 +33,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
         <Button
-            android:id="@+id/korfee"
+            android:id="@+id/korfeebtn"
             android:layout_width="10dp"
             android:layout_weight="1"
             android:layout_height="70dp"
