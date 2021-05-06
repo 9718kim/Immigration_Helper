@@ -1,4 +1,4 @@
-package com.example.immigrationhelper.Kor;
+package com.example.immigrationhelper.Eng;
 
 import android.os.Bundle;
 
@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.immigrationhelper.R;
 
-public class KorEngBtnActivity extends AppCompatActivity {
+public class EngActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -3,10 +3,11 @@ package com.example.immigrationhelper.Kor;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.immigrationhelper.Eng.EngActivity;
 import com.example.immigrationhelper.R;
 
 public class KorActivity extends AppCompatActivity {
@@ -16,10 +17,10 @@ public class KorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kor);
 
-        Button kdobtn = (Button) findViewById(R.id.kordobtn);
-        Button krebtn = (Button) findViewById(R.id.korrebtn);
-        Button kgubtn = (Button) findViewById(R.id.korgubtn);
-        Button klabtn = (Button) findViewById(R.id.korlabtn);
+        ImageButton kdobtn = (ImageButton) findViewById(R.id.kordobtn);
+        ImageButton krebtn = (ImageButton) findViewById(R.id.korrebtn);
+        ImageButton kgubtn = (ImageButton) findViewById(R.id.korgubtn);
+        ImageButton klabtn = (ImageButton) findViewById(R.id.korlabtn);
 
         kdobtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,7 +46,7 @@ public class KorActivity extends AppCompatActivity {
         klabtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), KorEngBtnActivity.class);
+                Intent intent = new Intent(getApplicationContext(), EngActivity.class);
                 startActivity(intent);
             }
         });

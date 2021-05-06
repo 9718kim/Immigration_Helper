@@ -7,56 +7,61 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
+    <ImageButton
         android:id="@+id/kormainbtn"
         android:layout_width="fill_parent"
-        android:layout_height="70dp"
-        android:backgroundTint="#888888"
-        android:text="출입국 Helper"
+        android:layout_height="90dp"
+        android:backgroundTint="#00ff0000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/maintitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/kordobtn"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="40dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="180dp"
-        android:backgroundTint="#888888"
-        android:text="서류 안내"
+        android:backgroundTint="#00ff0000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/kor_main_docu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/korrebtn"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:layout_marginTop="180dp"
-        android:layout_marginEnd="40dp"
-        android:backgroundTint="#888888"
-        android:text="예약 안내"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#00ff0000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/kor_main_reser"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/korgubtn"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="40dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="30dp"
         android:layout_marginBottom="180dp"
-        android:backgroundTint="#888888"
-        android:text="이용 안내"
+        android:backgroundTint="#00ff0000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/kor_main_guide"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/korlabtn"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginEnd="40dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginEnd="30dp"
         android:layout_marginBottom="180dp"
-        android:backgroundTint="#888888"
-        android:text="언어 전환"
+        android:backgroundTint="#00ff0000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/kor_main_switch"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
