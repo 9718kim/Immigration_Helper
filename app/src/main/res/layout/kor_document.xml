@@ -12,36 +12,38 @@
         android:orientation="horizontal"
         android:id="@+id/kormain"
         tools:ignore="MissingConstraints">
-        <Button
+
+        <ImageButton
             android:id="@+id/kormainbtn"
             android:layout_width="10dp"
-            android:layout_weight="6"
-            android:layout_height="70dp"
-            android:backgroundTint="#888888"
-            android:text="출입국 Helper"
-            android:insetTop="0dp"
+            android:layout_weight="4"
+            android:layout_height="90dp"
+            android:backgroundTint="#00ff0000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/maintitle"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <Button
+
+        <ImageButton
             android:id="@+id/korsafebtn"
             android:layout_width="10dp"
+            android:layout_height="85dp"
             android:layout_weight="1"
-            android:layout_height="70dp"
-            android:backgroundTint="#888888"
-            android:text="!"
-            android:insetTop="0dp"
+            android:backgroundTint="#00ff0000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/i"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <Button
-            android:id="@+id/korfeebtn"
-            android:layout_width="10dp"
-            android:layout_weight="1"
-            android:layout_height="70dp"
-            android:backgroundTint="#888888"
-            android:text="!"
-            android:insetTop="0dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+<!--        <Button-->
+<!--            android:id="@+id/korfeebtn"-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:backgroundTint="#888888"-->
+<!--            android:text="!"-->
+<!--            android:insetTop="0dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
     </LinearLayout>
 
     <androidx.core.widget.NestedScrollView
