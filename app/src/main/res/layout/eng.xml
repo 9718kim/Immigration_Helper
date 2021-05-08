@@ -65,4 +65,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <ImageButton
+        android:id="@+id/callbtn_e"
+        android:layout_width="356dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/callbtn_e"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@color/cardview_shadow_end_color" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
