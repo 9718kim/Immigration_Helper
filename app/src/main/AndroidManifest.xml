@@ -23,41 +23,7 @@
         <activity android:name=".Kor.KorSafetyActivity"/>
         <activity android:name=".Kor.KorFeeActivity"/>
         <activity android:name=".Eng.EngActivity"/>
-        <activity android:name=".Kor.KorVisa.KorA1Activity"/>
-        <activity android:name=".Kor.KorVisa.KorA2Activity"/>
-        <activity android:name=".Kor.KorVisa.KorA3Activity"/>
-        <activity android:name=".Kor.KorVisa.KorB1Activity"/>
-        <activity android:name=".Kor.KorVisa.KorB2Activity"/>
-        <activity android:name=".Kor.KorVisa.KorC1Activity"/>
-        <activity android:name=".Kor.KorVisa.KorC3Activity"/>
-        <activity android:name=".Kor.KorVisa.KorC4Activity"/>
-        <activity android:name=".Kor.KorVisa.KorD1Activity"/>
-        <activity android:name=".Kor.KorVisa.KorD2Activity"/>
-        <activity android:name=".Kor.KorVisa.KorD3Activity"/>
-        <activity android:name=".Kor.KorVisa.KorD4Activity"/>
-        <activity android:name=".Kor.KorVisa.KorD5Activity"/>
-        <activity android:name=".Kor.KorVisa.KorD6Activity"/>
-        <activity android:name=".Kor.KorVisa.KorD7Activity"/>
-        <activity android:name=".Kor.KorVisa.KorD8Activity"/>
-        <activity android:name=".Kor.KorVisa.KorD9Activity"/>
-        <activity android:name=".Kor.KorVisa.KorD10Activity"/>
-        <activity android:name=".Kor.KorVisa.KorE1Activity"/>
-        <activity android:name=".Kor.KorVisa.KorE2Activity"/>
-        <activity android:name=".Kor.KorVisa.KorE3Activity"/>
-        <activity android:name=".Kor.KorVisa.KorE4Activity"/>
-        <activity android:name=".Kor.KorVisa.KorE5Activity"/>
-        <activity android:name=".Kor.KorVisa.KorE6Activity"/>
-        <activity android:name=".Kor.KorVisa.KorE7Activity"/>
-        <activity android:name=".Kor.KorVisa.KorE8Activity"/>
-        <activity android:name=".Kor.KorVisa.KorE9Activity"/>
-        <activity android:name=".Kor.KorVisa.KorE10Activity"/>
-        <activity android:name=".Kor.KorVisa.KorF1Activity"/>
-        <activity android:name=".Kor.KorVisa.KorF2Activity"/>
-        <activity android:name=".Kor.KorVisa.KorF3Activity"/>
-        <activity android:name=".Kor.KorVisa.KorF5Activity"/>
-        <activity android:name=".Kor.KorVisa.KorF6Activity"/>
-        <activity android:name=".Kor.KorVisa.KorG1Activity"/>
-        <activity android:name=".Kor.KorVisa.KorH1Activity"/>
+        <activity android:name=".Kor.BaseKorActivity"/>
     </application>
 
 </manifest>
