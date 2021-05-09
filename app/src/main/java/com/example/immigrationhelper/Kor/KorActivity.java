@@ -1,7 +1,6 @@
 package com.example.immigrationhelper.Kor;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -25,9 +24,6 @@ public class KorActivity extends AppCompatActivity {
         ImageButton krebtn = (ImageButton) findViewById(R.id.korrebtn);
         ImageButton kgubtn = (ImageButton) findViewById(R.id.korgubtn);
         ImageButton klabtn = (ImageButton) findViewById(R.id.korlabtn);
-        ImageButton b1 = (ImageButton) findViewById(R.id.callbtn);
-        ImageButton b2 = (ImageButton) findViewById(R.id.callbtn2);
-        ImageButton b3 = (ImageButton) findViewById(R.id.callbtn3);
 
         kdobtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,27 +51,6 @@ public class KorActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), EngActivity.class);
                 startActivity(intent);
-            }
-        });
-        b1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:02-2110-3000"));
-                startActivity(i);
-            }
-        });
-        b2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i2 = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:1345"));
-                startActivity(i2);
-            }
-        });
-        b3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i3 = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:82-2-6908-1345"));
-                startActivity(i3);
             }
         });
     }

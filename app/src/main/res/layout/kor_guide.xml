@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
@@ -14,13 +15,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView"
+    <ImageButton
+        android:id="@+id/korcallbtn1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="이용 안내"
-        android:textSize="50dp"
+        android:layout_height="70dp"
+        android:background="@drawable/kor_call1"
+        app:layout_constraintTop_toBottomOf="@id/kormainbtn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/kormainbtn"/>
+        app:srcCompat="@color/cardview_shadow_end_color"/>
+
+    <ImageButton
+        android:id="@+id/korcallbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/kor_call2"
+        app:layout_constraintTop_toBottomOf="@id/korcallbtn1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@color/cardview_shadow_end_color"/>
+
+    <ImageButton
+        android:id="@+id/korcallbtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/kor_call3"
+        app:layout_constraintTop_toBottomOf="@id/korcallbtn2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@color/cardview_shadow_end_color"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
