@@ -11,9 +11,6 @@ import com.example.immigrationhelper.Eng.EngActivity;
 import com.example.immigrationhelper.R;
 
 public class KorActivity extends AppCompatActivity {
-    ImageButton b1;
-    ImageButton b2;
-    ImageButton b3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

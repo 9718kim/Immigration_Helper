@@ -15,33 +15,49 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/korcallbtn1"
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:background="@drawable/kor_call1"
-        app:layout_constraintTop_toBottomOf="@id/kormainbtn"
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@color/cardview_shadow_end_color"/>
+        app:layout_constraintTop_toBottomOf="@id/kormainbtn">
 
-    <ImageButton
-        android:id="@+id/korcallbtn2"
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:layout_marginBottom="68dp"
-        android:background="@drawable/kor_call2"
-        app:layout_constraintTop_toBottomOf="@id/korcallbtn1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@color/cardview_shadow_end_color"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <ImageButton
-        android:id="@+id/korcallbtn3"
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:layout_marginBottom="12dp"
-        android:background="@drawable/kor_call3"
-        app:layout_constraintTop_toBottomOf="@id/korcallbtn2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@color/cardview_shadow_end_color"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kor_manual"
+            android:adjustViewBounds="true"/>
 
+        <ImageButton
+            android:id="@+id/korcallbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@drawable/kor_call1"
+            app:srcCompat="@color/cardview_shadow_end_color"/>
+
+        <ImageButton
+            android:id="@+id/korcallbtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@drawable/kor_call2"
+            app:srcCompat="@color/cardview_shadow_end_color"/>
+
+        <ImageButton
+            android:id="@+id/korcallbtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@drawable/kor_call3"
+            app:srcCompat="@color/cardview_shadow_end_color"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
