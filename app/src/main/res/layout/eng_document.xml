@@ -10,11 +10,11 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:orientation="horizontal"
-        android:id="@+id/kormain"
+        android:id="@+id/engmain"
         tools:ignore="MissingConstraints">
 
         <ImageButton
-            android:id="@+id/kormainbtn"
+            android:id="@+id/engmainbtn"
             android:layout_width="10dp"
             android:layout_weight="4"
             android:layout_height="90dp"
@@ -25,7 +25,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/korsafebtn"
+            android:id="@+id/engsafebtn"
             android:layout_width="10dp"
             android:layout_height="85dp"
             android:layout_weight="1"
@@ -45,7 +45,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/kormain">
+        app:layout_constraintTop_toBottomOf="@id/engmain">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -66,7 +66,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_a1"/>
+                    android:src="@drawable/eng_a1"/>
                 <ImageButton
                     android:id="@+id/kora3btn"
                     android:layout_width="match_parent"
@@ -75,7 +75,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_a3"/>
+                    android:src="@drawable/eng_a3"/>
                 <ImageButton
                     android:id="@+id/korb2btn"
                     android:layout_width="match_parent"
@@ -84,7 +84,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_b2"/>
+                    android:src="@drawable/eng_b2"/>
                 <ImageButton
                     android:id="@+id/korc3btn"
                     android:layout_width="match_parent"
@@ -93,7 +93,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_c3"/>
+                    android:src="@drawable/eng_c3"/>
                 <ImageButton
                     android:id="@+id/kord1btn"
                     android:layout_width="match_parent"
@@ -102,7 +102,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_d1"/>
+                    android:src="@drawable/eng_d1"/>
                 <ImageButton
                     android:id="@+id/kord3btn"
                     android:layout_width="match_parent"
@@ -111,7 +111,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_d3"/>
+                    android:src="@drawable/eng_d3"/>
                 <ImageButton
                     android:id="@+id/kord5btn"
                     android:layout_width="match_parent"
@@ -120,7 +120,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_d5"/>
+                    android:src="@drawable/eng_d5"/>
                 <ImageButton
                     android:id="@+id/kord7btn"
                     android:layout_width="match_parent"
@@ -129,7 +129,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_d7"/>
+                    android:src="@drawable/eng_d7"/>
                 <ImageButton
                     android:id="@+id/kord9btn"
                     android:layout_width="match_parent"
@@ -138,7 +138,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_d9"/>
+                    android:src="@drawable/eng_d9"/>
                 <ImageButton
                     android:id="@+id/kore1btn"
                     android:layout_width="match_parent"
@@ -147,7 +147,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_e1"/>
+                    android:src="@drawable/eng_e1"/>
                 <ImageButton
                     android:id="@+id/kore3btn"
                     android:layout_width="match_parent"
@@ -156,7 +156,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_e3"/>
+                    android:src="@drawable/eng_e3"/>
                 <ImageButton
                     android:id="@+id/kore5btn"
                     android:layout_width="match_parent"
@@ -165,7 +165,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_e5"/>
+                    android:src="@drawable/eng_e5"/>
                 <ImageButton
                     android:id="@+id/kore7btn"
                     android:layout_width="match_parent"
@@ -174,7 +174,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_e7"/>
+                    android:src="@drawable/eng_e7"/>
                 <ImageButton
                     android:id="@+id/kore9btn"
                     android:layout_width="match_parent"
@@ -183,7 +183,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_e9"/>
+                    android:src="@drawable/eng_e9"/>
                 <ImageButton
                     android:id="@+id/korf1btn"
                     android:layout_width="match_parent"
@@ -192,7 +192,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_f1"/>
+                    android:src="@drawable/eng_f1"/>
                 <ImageButton
                     android:id="@+id/korf3btn"
                     android:layout_width="match_parent"
@@ -201,7 +201,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_f3"/>
+                    android:src="@drawable/eng_f3"/>
                 <ImageButton
                     android:id="@+id/korf6btn"
                     android:layout_width="match_parent"
@@ -210,7 +210,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_f6"/>
+                    android:src="@drawable/eng_f6"/>
                 <ImageButton
                     android:id="@+id/korh1btn"
                     android:layout_width="match_parent"
@@ -219,7 +219,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_h1"/>
+                    android:src="@drawable/eng_h1"/>
             </LinearLayout>
 
             <LinearLayout
@@ -235,7 +235,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_a2"/>
+                    android:src="@drawable/eng_a2"/>
                 <ImageButton
                     android:id="@+id/korb1btn"
                     android:layout_width="match_parent"
@@ -244,7 +244,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_b1"/>
+                    android:src="@drawable/eng_b1"/>
                 <ImageButton
                     android:id="@+id/korc1btn"
                     android:layout_width="match_parent"
@@ -253,7 +253,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_c1"/>
+                    android:src="@drawable/eng_c1"/>
                 <ImageButton
                     android:id="@+id/korc4btn"
                     android:layout_width="match_parent"
@@ -262,7 +262,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_c4"/>
+                    android:src="@drawable/eng_c4"/>
                 <ImageButton
                     android:id="@+id/kord2btn"
                     android:layout_width="match_parent"
@@ -271,7 +271,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_d2"/>
+                    android:src="@drawable/eng_d2"/>
                 <ImageButton
                     android:id="@+id/kord4btn"
                     android:layout_width="match_parent"
@@ -280,7 +280,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_d4"/>
+                    android:src="@drawable/eng_d4"/>
                 <ImageButton
                     android:id="@+id/kord6btn"
                     android:layout_width="match_parent"
@@ -289,7 +289,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_d6"/>
+                    android:src="@drawable/eng_d6"/>
                 <ImageButton
                     android:id="@+id/kord8btn"
                     android:layout_width="match_parent"
@@ -298,7 +298,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_d8"/>
+                    android:src="@drawable/eng_d8"/>
                 <ImageButton
                     android:id="@+id/kord10btn"
                     android:layout_width="match_parent"
@@ -307,7 +307,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_d10"/>
+                    android:src="@drawable/eng_d10"/>
                 <ImageButton
                     android:id="@+id/kore2btn"
                     android:layout_width="match_parent"
@@ -316,7 +316,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_e2"/>
+                    android:src="@drawable/eng_e2"/>
                 <ImageButton
                     android:id="@+id/kore4btn"
                     android:layout_width="match_parent"
@@ -325,7 +325,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_e4"/>
+                    android:src="@drawable/eng_e4"/>
                 <ImageButton
                     android:id="@+id/kore6btn"
                     android:layout_width="match_parent"
@@ -334,7 +334,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_e6"/>
+                    android:src="@drawable/eng_e6"/>
                 <ImageButton
                     android:id="@+id/kore8btn"
                     android:layout_width="match_parent"
@@ -343,7 +343,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/e8_01"/>
+                    android:src="@drawable/eng_e6"/>
                 <ImageButton
                     android:id="@+id/kore10btn"
                     android:layout_width="match_parent"
@@ -352,7 +352,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_e10"/>
+                    android:src="@drawable/eng_e10"/>
                 <ImageButton
                     android:id="@+id/korf2btn"
                     android:layout_width="match_parent"
@@ -361,7 +361,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_f2"/>
+                    android:src="@drawable/eng_f2"/>
                 <ImageButton
                     android:id="@+id/korf5btn"
                     android:layout_width="match_parent"
@@ -370,7 +370,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_f5"/>
+                    android:src="@drawable/eng_f5"/>
                 <ImageButton
                     android:id="@+id/korg1btn"
                     android:layout_width="match_parent"
@@ -379,7 +379,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/kor_g1"/>
+                    android:src="@drawable/eng_g1"/>
             </LinearLayout>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

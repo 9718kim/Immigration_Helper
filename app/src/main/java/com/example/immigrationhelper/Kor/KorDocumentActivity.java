@@ -89,7 +89,7 @@ public class KorDocumentActivity extends AppCompatActivity {
             baseButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(getApplicationContext(), BaseKorActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), KorVisaActivity.class);
                     intent.putExtra("layout", buttonLayoutMap.get(key));
                     startActivity(intent);
                 }
