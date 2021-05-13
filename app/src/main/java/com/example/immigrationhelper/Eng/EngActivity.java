@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.immigrationhelper.Kor.KorActivity;
 import com.example.immigrationhelper.Kor.KorDocumentActivity;
-import com.example.immigrationhelper.Kor.KorReservationActivity;
 import com.example.immigrationhelper.R;
 
 public class EngActivity extends AppCompatActivity {
@@ -28,14 +27,14 @@ public class EngActivity extends AppCompatActivity {
         edobtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), KorDocumentActivity.class);
+                Intent intent = new Intent(getApplicationContext(), EngDocumentActivity.class);
                 startActivity(intent);
             }
         });
         erebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), KorReservationActivity.class);
+                Intent intent = new Intent(getApplicationContext(), EngReservationActivity.class);
                 startActivity(intent);
             }
         });

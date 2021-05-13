@@ -31,7 +31,7 @@
             android:layout_weight="1"
             android:backgroundTint="#00ff0000"
             android:scaleType="fitCenter"
-            android:src="@drawable/i"
+            android:src="@drawable/i_green"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>
@@ -55,28 +55,24 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/a2_01"
+                android:src="@drawable/kor_a2_contents_01"
                 android:adjustViewBounds="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/a2_02"
+                android:src="@drawable/kor_a2_contents_02"
                 android:adjustViewBounds="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/a2_03"
+                android:src="@drawable/kor_a2_contents_03"
                 android:adjustViewBounds="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/a2_04"
+                android:src="@drawable/kor_a2_contents_04"
                 android:adjustViewBounds="true"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/a2_05"
-                android:adjustViewBounds="true"/>
+
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

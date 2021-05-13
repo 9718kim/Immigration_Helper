@@ -31,7 +31,7 @@
             android:layout_weight="1"
             android:backgroundTint="#00ff0000"
             android:scaleType="fitCenter"
-            android:src="@drawable/i"
+            android:src="@drawable/i_green"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>
@@ -55,72 +55,52 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/f1_01"
+                android:src="@drawable/kor_f1_contents_01"
                 android:adjustViewBounds="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/f1_02"
+                android:src="@drawable/kor_f1_contents_02"
                 android:adjustViewBounds="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/f1_03"
+                android:src="@drawable/kor_f1_contents_03"
                 android:adjustViewBounds="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/f1_04"
+                android:src="@drawable/kor_f1_contents_04"
                 android:adjustViewBounds="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/f1_05"
+                android:src="@drawable/kor_f1_contents_05"
                 android:adjustViewBounds="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/f1_06"
+                android:src="@drawable/kor_f1_contents_06"
                 android:adjustViewBounds="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/f1_07"
+                android:src="@drawable/kor_f1_contents_07"
                 android:adjustViewBounds="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/f1_08"
+                android:src="@drawable/kor_f1_contents_08"
                 android:adjustViewBounds="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/f1_09"
+                android:src="@drawable/kor_f1_contents_09"
                 android:adjustViewBounds="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/f1_10"
-                android:adjustViewBounds="true"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/f1_11"
-                android:adjustViewBounds="true"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/f1_12"
-                android:adjustViewBounds="true"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/f1_13"
-                android:adjustViewBounds="true"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/f1_14"
+                android:src="@drawable/kor_f1_contents_10"
                 android:adjustViewBounds="true"/>
 
         </LinearLayout>

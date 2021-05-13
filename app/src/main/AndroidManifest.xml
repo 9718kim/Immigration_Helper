@@ -24,10 +24,12 @@
         <activity android:name=".Kor.KorFeeActivity"/>
         <activity android:name=".Kor.KorVisaActivity"/>
         <activity android:name=".Eng.EngActivity"/>
+        <activity android:name=".Eng.EngDocumentActivity"/>
         <activity android:name=".Eng.EngReservationActivity"/>
         <activity android:name=".Eng.EngGuideActivity"/>
         <activity android:name=".Eng.EngSafetyActivity"/>
         <activity android:name=".Eng.EngFeeActivity"/>
+        <activity android:name=".Eng.EngVisaActivity"/>
     </application>
 
 </manifest>
