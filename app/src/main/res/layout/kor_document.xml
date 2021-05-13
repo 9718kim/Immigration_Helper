@@ -31,7 +31,7 @@
             android:layout_weight="1"
             android:backgroundTint="#00ff0000"
             android:scaleType="fitCenter"
-            android:src="@drawable/i"
+            android:src="@drawable/i_red"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>
@@ -343,7 +343,7 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/e8_01"/>
+                    android:src="@drawable/kor_e8"/>
                 <ImageButton
                     android:id="@+id/kore10btn"
                     android:layout_width="match_parent"

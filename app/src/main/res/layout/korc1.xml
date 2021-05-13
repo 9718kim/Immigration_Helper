@@ -31,7 +31,7 @@
             android:layout_weight="1"
             android:backgroundTint="#00ff0000"
             android:scaleType="fitCenter"
-            android:src="@drawable/i"
+            android:src="@drawable/i_green"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>
@@ -55,7 +55,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/c1_01"
+                android:src="@drawable/kor_c1_contents_01"
                 android:adjustViewBounds="true"/>
 
         </LinearLayout>

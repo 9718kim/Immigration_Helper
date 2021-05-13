@@ -31,7 +31,7 @@
             android:layout_weight="1"
             android:backgroundTint="#00ff0000"
             android:scaleType="fitCenter"
-            android:src="@drawable/i"
+            android:src="@drawable/i_red"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>
@@ -59,7 +59,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/kora1btn"
+                    android:id="@+id/enga1btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -68,7 +68,7 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_a1"/>
                 <ImageButton
-                    android:id="@+id/kora3btn"
+                    android:id="@+id/enga3btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -77,43 +77,43 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_a3"/>
                 <ImageButton
-                    android:id="@+id/korb2btn"
+                    android:id="@+id/engb2btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_b2"/>
                 <ImageButton
-                    android:id="@+id/korc3btn"
+                    android:id="@+id/engc3btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_c3"/>
                 <ImageButton
-                    android:id="@+id/kord1btn"
+                    android:id="@+id/engd1btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_d1"/>
                 <ImageButton
-                    android:id="@+id/kord3btn"
+                    android:id="@+id/engd3btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_d3"/>
                 <ImageButton
-                    android:id="@+id/kord5btn"
+                    android:id="@+id/engd5btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -122,7 +122,7 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_d5"/>
                 <ImageButton
-                    android:id="@+id/kord7btn"
+                    android:id="@+id/engd7btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -131,7 +131,7 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_d7"/>
                 <ImageButton
-                    android:id="@+id/kord9btn"
+                    android:id="@+id/engd9btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -140,7 +140,7 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_d9"/>
                 <ImageButton
-                    android:id="@+id/kore1btn"
+                    android:id="@+id/enge1btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -149,7 +149,7 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_e1"/>
                 <ImageButton
-                    android:id="@+id/kore3btn"
+                    android:id="@+id/enge3btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -158,7 +158,7 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_e3"/>
                 <ImageButton
-                    android:id="@+id/kore5btn"
+                    android:id="@+id/enge5btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -167,55 +167,55 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_e5"/>
                 <ImageButton
-                    android:id="@+id/kore7btn"
+                    android:id="@+id/enge7btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_e7"/>
                 <ImageButton
-                    android:id="@+id/kore9btn"
+                    android:id="@+id/enge9btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_e9"/>
                 <ImageButton
-                    android:id="@+id/korf1btn"
+                    android:id="@+id/engf1btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_f1"/>
                 <ImageButton
-                    android:id="@+id/korf3btn"
+                    android:id="@+id/engf3btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_f3"/>
                 <ImageButton
-                    android:id="@+id/korf6btn"
+                    android:id="@+id/engf6btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_f6"/>
                 <ImageButton
-                    android:id="@+id/korh1btn"
+                    android:id="@+id/engh1btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
@@ -228,7 +228,7 @@
                 android:layout_width="fill_parent"
                 android:orientation="vertical">
                 <ImageButton
-                    android:id="@+id/kora2btn"
+                    android:id="@+id/enga2btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -237,52 +237,52 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_a2"/>
                 <ImageButton
-                    android:id="@+id/korb1btn"
+                    android:id="@+id/engb1btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_b1"/>
                 <ImageButton
-                    android:id="@+id/korc1btn"
+                    android:id="@+id/engc1btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_c1"/>
                 <ImageButton
-                    android:id="@+id/korc4btn"
+                    android:id="@+id/engc4btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_c4"/>
                 <ImageButton
-                    android:id="@+id/kord2btn"
+                    android:id="@+id/engd2btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_d2"/>
                 <ImageButton
-                    android:id="@+id/kord4btn"
+                    android:id="@+id/engd4btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_d4"/>
                 <ImageButton
-                    android:id="@+id/kord6btn"
+                    android:id="@+id/engd6btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -291,7 +291,7 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_d6"/>
                 <ImageButton
-                    android:id="@+id/kord8btn"
+                    android:id="@+id/engd8btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -300,7 +300,7 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_d8"/>
                 <ImageButton
-                    android:id="@+id/kord10btn"
+                    android:id="@+id/engd10btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -309,7 +309,7 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_d10"/>
                 <ImageButton
-                    android:id="@+id/kore2btn"
+                    android:id="@+id/enge2btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -318,7 +318,7 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_e2"/>
                 <ImageButton
-                    android:id="@+id/kore4btn"
+                    android:id="@+id/enge4btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -327,7 +327,7 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_e4"/>
                 <ImageButton
-                    android:id="@+id/kore6btn"
+                    android:id="@+id/enge6btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:backgroundTint="#00ff0000"
@@ -336,46 +336,46 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_e6"/>
                 <ImageButton
-                    android:id="@+id/kore8btn"
+                    android:id="@+id/enge8btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/eng_e6"/>
+                    android:src="@drawable/eng_e8"/>
                 <ImageButton
-                    android:id="@+id/kore10btn"
+                    android:id="@+id/enge10btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_e10"/>
                 <ImageButton
-                    android:id="@+id/korf2btn"
+                    android:id="@+id/engf2btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_f2"/>
                 <ImageButton
-                    android:id="@+id/korf5btn"
+                    android:id="@+id/engf5btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/eng_f5"/>
                 <ImageButton
-                    android:id="@+id/korg1btn"
+                    android:id="@+id/engg1btn"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:backgroundTint="#00ff0000"
+                    android:backgroundTint="#888888"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:scaleType="fitCenter"
