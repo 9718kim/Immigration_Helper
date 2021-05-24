@@ -53,11 +53,31 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <TextView
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="추후 업데이트 예정"
-                android:textSize="50dp"/>
+                android:src="@drawable/eng_e9_contents_01"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eng_e9_contents_02"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eng_e9_contents_03"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eng_e9_contents_04"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eng_e9_contents_05"
+                android:adjustViewBounds="true"/>
 
         </LinearLayout>
 
