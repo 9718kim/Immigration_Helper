@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.immigrationhelper">
+    package="com.immihelper.immigrationhelper">
 
     <application
         android:allowBackup="true"
@@ -9,27 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ImmigrationHelper">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.immihelper.immigrationhelper.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Kor.KorActivity"/>
-        <activity android:name=".Kor.KorDocumentActivity"/>
-        <activity android:name=".Kor.KorReservationActivity"/>
-        <activity android:name=".Kor.KorGuideActivity"/>
-        <activity android:name=".Kor.KorSafetyActivity"/>
-        <activity android:name=".Kor.KorFeeActivity"/>
-        <activity android:name=".Kor.KorVisaActivity"/>
-        <activity android:name=".Eng.EngActivity"/>
-        <activity android:name=".Eng.EngDocumentActivity"/>
-        <activity android:name=".Eng.EngReservationActivity"/>
-        <activity android:name=".Eng.EngGuideActivity"/>
-        <activity android:name=".Eng.EngSafetyActivity"/>
-        <activity android:name=".Eng.EngFeeActivity"/>
-        <activity android:name=".Eng.EngVisaActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Kor.KorActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Kor.KorDocumentActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Kor.KorReservationActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Kor.KorGuideActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Kor.KorSafetyActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Kor.KorFeeActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Kor.KorVisaActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Eng.EngActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Eng.EngDocumentActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Eng.EngReservationActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Eng.EngGuideActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Eng.EngSafetyActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Eng.EngFeeActivity"/>
+        <activity android:name="com.immihelper.immigrationhelper.Eng.EngVisaActivity"/>
     </application>
 
 </manifest>
