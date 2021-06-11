@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.immigrationhelper"
+        applicationId "com.immihelper.immigrationhelper"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
